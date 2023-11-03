@@ -27,6 +27,7 @@ MORSE_CODE = {
   '--..' => 'Z'
 }.freeze
 
+# "-. .- .--- . . -..."
 # Method to decode a Morse code character
 def decode_char(morse_char)
   MORSE_CODE[morse_char]
